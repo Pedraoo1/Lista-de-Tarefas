@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    background-color: #AAD9BB;
+    padding: 15px;
+    width: 100%;
+    border-bottom: 2px solid #80BCBD;
+}
+
+header img{
+    height: 40px;
+}
+
+header button{
+    padding: 8px;
+    background-color: #D5F0C1;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form{
+    padding: 50px;
+    text-align: center;
+    background-color: #D5F0C1;
+    display: none;
+}
+
+form h2{
+    margin-bottom: 15px;
+}
+
+form input, form button{
+    padding: 10px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+#cancelar{
+    background-color: red;
+    color: white;
+    border: 0px;
+}
+
+#cadastrar{
+    background-color: green;
+    color: white;
+    border: 0px;
+}
+
+
+#escopo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tarefas div{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    background-color: #F9F7C9;
+    padding: 70px 140px;
+    align-items: center;
+    border: 3px dotted #80BCBD;
+}
+
+.tarefas div button{
+    padding: 5px;
+    width: 60px;
+    font-size: 12px;
+    height: 25px;
+    background-color: green;
+    border: none;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.tarefas{
+    margin: 25px;
+    padding: 25px;
+    flex-wrap: wrap;
+}

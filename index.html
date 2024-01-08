@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+        <img src="./images/lista.png" alt="Imagem de uma lista" />
+        <button id="comecar">Começar</button>
+    </header>
+    <form>
+        <h2>Cadastre sua tarefa!</h2>
+        <input type="text" id="descricao" placeholder="Descreva sua tarefa" required>
+        <input type="text" id="prioridade" placeholder="Prioridade (Opcional)" required>
+        <button type="button" pm id="cadastrar">Cadastrar</button>
+        <button type="reset" id="cancelar">Cancelar</button>
+    </form>
+    <div id="escopo">
+        <div class="tarefas">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
